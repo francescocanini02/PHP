@@ -1,5 +1,5 @@
-ciao mondo
-seconda riga 
-riga nel mezzo
-terza riga
-ennesima modifica al file
+Regex 101 per cercare pattern 
+
+Regular expressions 101 
+
+Required quando il campo è obbligatorio 
