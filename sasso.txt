@@ -115,8 +115,44 @@ http://localhost/php/ ancge scrivedno localhost
 Visual e la pagina del server 
 
 Chrome el la pagina che ha ragggiunto il client 
-estensione html modificata in php
 
+Sostituisce righe php con le istruzione cghe deve fare ,   stampa sul browser 
+
+Ma in realta stampiamo sul gile che verra inviato al browser 
+
+Php w3cschool 
+
+Una variabile mantiene una informazione sono celle di memoria 
+
+Dati che si possono memorizzare sono numeri interi decimali  
+
+Stringa quando tra virgolette 
+
+Variabili php iniziano sempre col simbolo $ dollaro 
+
+Non deve iniziare con un nuimero nemmeno con _ 
+
+Si usano quando servono senza dichirarle 
+
+Posso assegnare qualunque dato alla stessa variabile in qualunque momento  
+
+Cella di memoria puo avere qualsiasi dato 
+
+Control s salva 
+
+Variabile contiene stringa ad esempio per capire 
+
+Assegno alla variabile var il contenuto stringa 
+
+Echo serve per stampare  
+
+Sovrascritto qaundo usi piu volte lo stesso var 
+
+Stringa si vede lo stesso con 1 apice solo anche se non lo scrivo  
+
+Si vede stringa perche ho scritto variabile 1  
+
+Concatenazione quando scrivi piu echo vicini grazie al punto che separa 2 strighe  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,4 +170,39 @@ estensione html modificata in php
     </p>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabili</title>
+</head>
+
+<body>
+    <?php
+    $var1 = "1";
+    //echo $var1;
+    $var1 = "stringa"; 
+    //echo $var1;
+    $var2 = "pippo";
+    //echo $var2;
+    //echo "$var1 <br> $var2"; // sostituisce nome variabile
+    //echo "ciao a tutti";
+
+    //variabile contenuto di $var1 = stringa
+    echo 'la variabile $var1=' . "$var1";
+    echo $var1;
+
+    //casa 
+    // assegnare ad una var la stringa "andare a acasa !"
+    // scrivere in una sola echo
+    // scrivere l'insegnante dice " è ora di contenuto della variabile" " 
+    ?>
+</body>
+
+</html>
+
 
