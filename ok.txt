@@ -1,5 +1,0 @@
-ciao mondo
-seconda riga 
-riga nel mezzo
-terza riga
-ennesima modifica al file
