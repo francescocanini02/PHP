@@ -131,26 +131,7 @@ $nome1 = "Mario";
         "nome corretto" : "nome non corretto";
     echo $nome_corretto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ?>
+ ?>
 
 </body>
 
