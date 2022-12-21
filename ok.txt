@@ -1,0 +1,5 @@
+Regex 101 per cercare pattern 
+
+Regular expressions 101 
+
+Required quando il campo è obbligatorio 
