@@ -1,0 +1,208 @@
+Client  sono io con il mio pc, quindi tutte le cose scaricate, non aggiornate 
+
+Server sono coloro che permettono di farmi raggiungere siti 
+
+Il contenuto html che andro a visualizzare dntro il browser sara andato a memorizzarsi da qualche parte 
+
+In n adelle macchine presnti su internet 
+
+Come faccio da casa mia a sapere dove e memorizatao il file html che  sto cercando 
+
+Esistono servizi che svolgono questo compito di associare il nome di dominio che sis ta cercando il riferimento della macchina fisica --> DNS nome a dominio 
+
+Dominio di terzo livello ,lo puo usare solo chi e proprietario del dominio di secondo livello 
+
+Un sistema di nome dominio  
+
+       DNS                             IP ( indirizzo che identifica in modo univoco una maccchina rispetto le altre)                                    
+
+Enaiprimini.org                182.39.20.10  
+
+Gooogle.com 
+
+trenitalia.com    
+
+          …. 
+
+Dns Asssocia nome adominio al suo indirizzo ip 
+
+Creare un sito e pubblicarlo online  
+
+Esiste un authority con i nomi gia utilizzati 
+
+Si acquista il nomer e si rinnova ogn anno 
+
+Arubo con 20 euro acquisti un nome che non è utilizzato 
+
+All autoriti pincopallino.it che mi ha fronito aruba con indirizzo ip corrispondente 
+
+La cash è una memoria temporanea presnente nel computer per velocizzare operazioni 
+
+Quando cerco html lo scaricando dal server nella cash temporaneamente pervhe uando esco viene eliminata 
+
+Parte che che ci interessa  
+
+client invia pagina al server, il server web deve contere linvguaggio uinterpretato correttamente dal client client side (html e un clien side) ( javascript esempio di linguaggio clientside) 
+
+Invece il linguaggio di ui ci occuperemo è server side  
+
+Il client non interpreta il contenuto 
+
+Tutte le volte che ci capitera di visualizzare del codice php sul browser non va bene perche deve esssere eseguito dal server serverside il problema sta nel server 
+
+ 
+
+ 
+
+ 
+
+Vediamo come puo essere fatta una pagina  
+
+Una pagina html memorizzata sul server è uguale a quando è sul client 
+
+Quando andremo a realizzare pagine disponibili sul server non faremo quello che facciamo con mauro 
+
+Ma faremo richiesta server web in esecuzione eleborata dal browser 
+
+Mettendo lindirizzo prova del 9 
+
+Sto visualizzando la pagina locale o quellla sul server? 
+
+Creare sul computer un server, instllare un server web che abbia il compito di rispondere alle domande del client, ce anche la parte del server, possso sia visualizzare la pagina localmente delntro al browser o interrogo il server che corrisponde ala nostra jmacchina chiedo al local host per poter svolgerre il servizio di risposta  
+
+Linux mlamp 
+
+Mac mamp 
+
+Windows wamp 
+
+Indipendentemente dal istema operativo e xamp 
+
+Xamp agggiune una p in fondo per il linguaggio perl che non usiamo   
+
+Xamp  
+
+Start con apache e mysql 
+
+Per avere un server web sul computer 
+
+Explorer di mostra tutti idati memorizzati sul serrver 
+
+Htdocs 
+
+Php 
+
+File index.html 
+
+Quandfo la barra inizia con c: non va bene perche ela risorsa locale 
+
+Dobbiamo chiedere al server se puo fornirci l pagina che ci serve 
+
+127.0 0.1 server macchiba locale localhost 
+
+http:// 127.0.0.1/dashboard/  
+
+Da mettere nella barra htpp 
+
+Ispezona la pagina xamp 
+
+http://127.0.0.1/php/ cosi apre il file nella cartella htdocs 
+
+Accederemo sempre cosi 
+
+http://localhost/php/ ancge scrivedno localhost 
+
+Visual e la pagina del server 
+
+Chrome el la pagina che ha ragggiunto il client 
+
+Sostituisce righe php con le istruzione cghe deve fare ,   stampa sul browser 
+
+Ma in realta stampiamo sul gile che verra inviato al browser 
+
+Php w3cschool 
+
+Una variabile mantiene una informazione sono celle di memoria 
+
+Dati che si possono memorizzare sono numeri interi decimali  
+
+Stringa quando tra virgolette 
+
+Variabili php iniziano sempre col simbolo $ dollaro 
+
+Non deve iniziare con un nuimero nemmeno con _ 
+
+Si usano quando servono senza dichirarle 
+
+Posso assegnare qualunque dato alla stessa variabile in qualunque momento  
+
+Cella di memoria puo avere qualsiasi dato 
+
+Control s salva 
+
+Variabile contiene stringa ad esempio per capire 
+
+Assegno alla variabile var il contenuto stringa 
+
+Echo serve per stampare  
+
+Sovrascritto qaundo usi piu volte lo stesso var 
+
+Stringa si vede lo stesso con 1 apice solo anche se non lo scrivo  
+
+Si vede stringa perche ho scritto variabile 1  
+
+Concatenazione quando scrivi piu echo vicini grazie al punto che separa 2 strighe  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <?php echo "titolo dinamico in php" ?></title>
+</head>
+<body>
+    <p>
+        Ciao mondo!
+        <?php
+            echo "ciao a tutti quelli dell'ultima fila";
+        ?>
+    </p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabili</title>
+</head>
+
+<body>
+    <?php
+    $var1 = "1";
+    //echo $var1;
+    $var1 = "stringa"; 
+    //echo $var1;
+    $var2 = "pippo";
+    //echo $var2;
+    //echo "$var1 <br> $var2"; // sostituisce nome variabile
+    //echo "ciao a tutti";
+
+    //variabile contenuto di $var1 = stringa
+    echo 'la variabile $var1=' . "$var1";
+    echo $var1;
+
+    //casa 
+    // assegnare ad una var la stringa "andare a acasa !"
+    // scrivere in una sola echo
+    // scrivere l'insegnante dice " è ora di contenuto della variabile" " 
+    ?>
+</body>
+
+</html>
+
+
