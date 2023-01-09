@@ -12,9 +12,52 @@
     <?php
 
     for ($i = 1; $i <= 10; $i++) {
-        echo $i;
+//se srivessi un echo qua verrebbe ripetuto per tutto il ciclo
+        //echo "what";
+
+        if (($i % 2) == 1) {
+            echo " <p style=background-color:#eee >";
+            echo " $i NON ";
+        } else {
+            echo " $i";
+        }
+            echo " multiplo di 2 <br>";
+            echo "</p>";
+        
     }
-    
+
+    echo "i=$i";
+    $multipli = 0;
+    $inizio = 1;
+    $iterazioni = 10;
+for($i=$inizio; $i<=$inizio + $iterazioni; $i++){
+    //$i%3 ==1 -> non è multiplo
+    //$i%3  -> non multiplo
+    // ! ($i%3) -> negazione di quello sopra (è multiplo)
+if( ! ($i%3) == 1) {//non è multiplo
+            echo "$i : trovato multiplo di 3 <br>";
+            $multipli++;
+
+}
+
+
+}
+echo " i multipli da $inizio a $iterazioni volte sono $multipli "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ?>
 </body>
 
