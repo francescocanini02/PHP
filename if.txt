@@ -1,0 +1,32 @@
+Regex 101 per cercare pattern 
+
+Regular expressions 101 
+
+Required quando il campo è obbligatorio 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if</title>
+</head>
+
+<body>
+    <?php
+    //ssegnare a $m il max tra x e y
+    $x = 1;
+    $y = 2;
+    if ($x>$y) {
+        echo "condizione vera!";
+    } else {
+        echo "condizione falsa!";
+        $m = $y;
+    }
+    echo "<br> il max tra $x e $y è $m ";
+    ?>
+</body>
+
+</html>
