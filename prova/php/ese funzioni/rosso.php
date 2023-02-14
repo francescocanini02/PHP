@@ -19,7 +19,8 @@
 	giorno e con la stessa commissione: scrivere il nome del partecipante che sarebbe il
 	primo in ordine alfabetico a sostenere l'esame (tra tutti i partecipanti di tutti i
 	corsi).<br>
-	si chiede di aggiungere in fondo ad ogni array dei partecipanti un ulteriore elemento, con chiave 'corso' e valore il nome del corso, fornito nel secondo array.<br>
+	si chiede di aggiungere in fondo ad ogni array dei partecipanti un ulteriore elemento, 
+	con chiave 'corso' e valore il nome del corso, fornito nel secondo array.<br>
 
 	Svolgere le stesse attività richieste sopra (escluso il punto 6) con questi array:<br>
 	<?php
@@ -140,9 +141,6 @@
 
 		echo "il corso con più iscritti è " . $corso_massimo;
 	
-
-
 	?>
 </body>
 </html>
-
