@@ -46,7 +46,13 @@
             echo "</$tag>";
         }
 
+        function setNome($n){
+            $this -> stringa = $n;
+        }
 
+        function getNome(){
+            return $this -> stringa;
+        }
     }
     $e1 = new Esempio("stringa dinamica da stampare");
     $e2 = new Esempio("2° stringa da stampare");
@@ -61,6 +67,11 @@
     $e2->stampaStringaInGrassetto();
     echo "<hr>";
     $e2->stampaStringaConTag("span");
+    //  basta cambiare il tag
+    echo "<hr>";
+    $e2 -> setNome("pippo"); 
+    echo $e2 -> getNome();
+
 
 
 
