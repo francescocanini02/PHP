@@ -14,7 +14,7 @@ function elenca_chiavi_di_records($records, $chiavi)
 {
     foreach ($records as $record) {
         foreach ($chiavi as $chiave) {
-            //echo $record[$chiave] . "<br>";
+            echo $record[$chiave] . "<br>";
         }
     }
 }
