@@ -10,7 +10,7 @@ function fz_sql($sql, $binds = [])
     //2. praparo lo statement (istruzione sql = query)
     $st = $con->prepare($sql); //$st è un oggetto della classe PDOStatement
     //echo "statement preparato";
-    //3. bind 
+    //3. bind - da fare
     foreach ($binds as $bind) {
         $st->bindParam($bind['segnaposto'], $bind['var']);
     }
