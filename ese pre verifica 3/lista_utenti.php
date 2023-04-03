@@ -54,7 +54,7 @@
         $passwd = "";
         $bindParams = [['segnaposto'=>':email','var'=>$postEmail],['segnaposto'=>':passwd','var'=>$postPasswd]];
         //var_dump($bindParams);
-        $dsn = "mysql:dbname=ifts;host=127.0.0.1";
+        $dsn = "mysql:dbname=utenti;host=127.0.0.1";
         $queryResponse = fz_sql($sql,$bindParams,$dsn,$login,$passwd);
         //var_dump($queryResponse);
         if(sizeof($queryResponse)>0){
